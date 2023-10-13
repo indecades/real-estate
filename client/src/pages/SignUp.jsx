@@ -78,7 +78,7 @@ setFormData(
         <p>
           Have an account?
           <Link to={'/sign-in'}>
-            <span className='text-blue-700'>Sign in</span>
+            <span className='text-blue-700'> Sign in</span>
           </Link>
         </p>
       </div>
