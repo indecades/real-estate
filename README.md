@@ -32,4 +32,4 @@ with limited search results and apply sorting options to the sidebar.
 
 ## Deployment
 
-This project is deployed by using render.
+This project is deployed with render.
