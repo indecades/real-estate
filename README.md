@@ -5,7 +5,7 @@
 A mern stack real estate web application with advanced authentication and search functionality.
 The focus of this application is to use the lastest versions of React, MongoDB, Node.js and Express.
 
-### About the project
+## About the project
 
 The project contains the most recent version of react-router-dom to create routes and dinamic pages.
 
@@ -25,11 +25,11 @@ The user is able to delete images and reupload new images to their listing.
 
 Each listing contains an image slider and convienent contacting options. 
 
-### Important aspects of the project
+## Important aspects of the project
 
 The project contains advanced search functionality. This gives the user the ability to search by title and 
 with limited search results and apply sorting options to the sidebar.
 
-### Deployment
+## Deployment
 
 This project is deployed by using render.
