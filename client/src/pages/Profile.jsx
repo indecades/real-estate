@@ -100,7 +100,7 @@ export default function Profile() {
 			});
 			const data = (await res).json();
 			if (data.success === false) {
-				dispatch(deleteUserFailure(error.message));
+				dispatch(deleteUserFailure(data.message));
 				return;
 			}
 			dispatch(deleteuserSuccess(data));

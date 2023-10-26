@@ -6,13 +6,13 @@ import Listing from "../models/listing.model.js";
 // req client information and get response from server
 export const test = (req, res) => {
 	res.json({
-		message: "Hello World!",
+		message: "Api route is working!",
 	});
 };
 
 export const updateUser = async (req, res, next) => {
 	if (req.user.id !== req.params.id) {
-		next(errorHandler(401, "You can only update your own account!"));
+	return	next(errorHandler(401, "You can only update your own account!"));
 	}
 	try {
 		if (req.body.password) {
