@@ -8,16 +8,16 @@ const userSchema = new mongoose.Schema({
     },
     email: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     password: {
         type: String,
-        required: true,
-        unique: true,
+        required: true
     },
     avatar: {
         type: String,
-        default: "https://cdn.vectorstock.com/i/preview-1x/71/90/blank-avatar-photo-icon-design-vector-30257190.jpg"
+        default: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
     },
 }, {timestamps: true})
 // sort information by using timestamp (e.g. latest information)
